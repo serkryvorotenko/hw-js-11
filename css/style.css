@@ -1,0 +1,46 @@
+.button {
+    max-width: 100%;
+    width: 250px;
+    padding: 12px 80px;
+    border: 2px solid green;
+    border-radius: 20px;
+    color: red;
+    background: bisque;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    color: #942929;
+    background: #c2955d;
+    border-color: #942929;
+}
+
+
+.active {
+    color: #942929;
+    background: #c2955d;
+
+}
+
+.button__row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.button__min-max {
+    display: flex;
+    gap: 15px;
+
+}
+
+.inner__paragraph.hidden {
+    display: none;
+}
+
+.button__min-max.hidden {
+    display: none;
+}
